@@ -1,0 +1,141 @@
+h1 {
+    color: blueviolet;
+    text-align: center;
+}
+body.landing {
+    background-color: cornflowerblue;
+    background-image: url("../../pics/space.gif");
+}
+body {
+    background-color: rgb(23, 27, 34);
+}
+h3 {
+    color: greenyellow;
+}
+div {
+    color: pink;
+}
+div:nth-of-type(1) {
+    text-align: center;
+}
+div > a {
+    color: pink;
+}
+img:nth-of-type(1) {
+    margin: 10px 100px 20px;
+}
+img:nth-last-of-type(1) {
+    margin: 10px 50px 20px 0;
+}
+h3 > ul {
+    color: white;
+}
+ol a {
+    color: yellow;
+}
+.green-heading {
+    color: beige;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.blue-text .uppercase {
+    font-weight: bold;
+}
+#main-heading {
+    font-family: sans-serif;
+}
+pre {
+    font-family: serif;
+}
+h3:nth-of-type(2) {
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(163, 230, 204);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.res h3 {
+    border-style: double;
+    border-width: 5px;
+    border-color: rgb(163, 230, 204);
+    border-radius: 20px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.link {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-style: unset;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+    bottom: 0;
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+ul.linkMe {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-style: unset;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(85, 85, 225);
+    position: fixed;
+    top: 0;
+    width: 30%;
+    display: center;
+    text-align: center;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(210, 152, 152);
+}
+.summary {
+    text-align: center;
+    font-style: italic;
+    color: rgb(177, 117, 177);
+}
+p.adj {
+    text-align: center;
+}
+p.adj span {
+    color: rgb(126, 228, 197)
+}
+ol li {
+    list-style: none;
+}
+#contact {
+    text-align: center;
+}
+a {
+    color: #9f83d8;
+}
+a:visited {
+    color: rgb(118, 187, 141);
+}
+a:hover,
+a:active,
+a:focus {
+    color: rgb(62, 143, 138);
+}
