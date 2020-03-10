@@ -139,3 +139,12 @@ a:active,
 a:focus {
     color: rgb(62, 143, 138);
 }
+#footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(92, 48, 120);
+    color: black;
+    text-align: center;
+}
