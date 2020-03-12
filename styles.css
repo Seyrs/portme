@@ -78,7 +78,7 @@ ul.link {
     background-color: #333;
     position: relative;
     bottom: 0;
-    width: 30%;
+    width: fit-content;
     display: inline-block;
     text-align: center;
 }
@@ -92,8 +92,8 @@ ul.linkMe {
     background-color: rgb(85, 85, 225);
     position: fixed;
     top: 0;
-    width: 30%;
-    display: center;
+    width: fit-content;
+    display: flex;
     text-align: center;
 }
 li {
@@ -111,7 +111,7 @@ li a {
 li a:hover {
     background-color: rgb(210, 152, 152);
 }
-.summary {
+#summary {
     text-align: center;
     font-style: italic;
     color: rgb(177, 117, 177);
@@ -147,4 +147,35 @@ a:focus {
     background-color: rgb(92, 48, 120);
     color: black;
     text-align: center;
+}
+#wrapper {
+    display: grid;
+grid-gap: 10px;
+    grid-template-columns: [col1-start] 100px  [col2-start] 100px  [col3-start] 100px [col3-end];
+    grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
+}
+
+#box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+#a {
+    grid-column: col1-start / col3-start;
+    grid-row: row1-start ;
+    /* margin-left: 400px; */
+}
+#b {
+    grid-column: col3-start ;
+    grid-row: row1-start / row2-end;
+}
+#c {
+    grid-column: col1-start;
+    grid-row: row2-start ;
+}
+#d {
+    grid-column: col2-start ;
+    grid-row: row2-start ;
 }
