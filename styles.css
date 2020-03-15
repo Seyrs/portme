@@ -82,6 +82,10 @@ ul.link {
     display: inline-block;
     text-align: center;
 }
+ul.link a.active {
+    background-color: rgb(57, 96, 79);
+    color: white;
+}
 ul.linkMe {
     list-style-type: none;
     margin: 0;
@@ -95,6 +99,12 @@ ul.linkMe {
     width: fit-content;
     display: flex;
     text-align: center;
+}
+.line {
+    text-align: center;
+}
+.typerwriter h2 {
+    color: aquamarine;
 }
 li {
     float: left;
@@ -125,6 +135,7 @@ p.adj span {
 ol li {
     list-style: none;
 }
+
 #contact {
     text-align: center;
 }
@@ -150,7 +161,7 @@ a:focus {
 }
 #wrapper {
     display: grid;
-grid-gap: 10px;
+    grid-gap: 10px;
     grid-template-columns: [col1-start] 100px  [col2-start] 100px  [col3-start] 100px [col3-end];
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
 }
