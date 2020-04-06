@@ -5,7 +5,8 @@ let quote = [
 "Life opens up opportunities to you, and you either take them or you stay afraid of taking them. -Jim Carrey", 
 "The prism through which you experience life is so unique. There is no objective experience. -Sterling K. Brown",
 "There's always an element of fear that you need to work a lot until people get sick and tired of you or finally figure out that you're a fraud after all! - Ben Stiller",
-"There's an old saying in Tennessee—I know it's in Texas, probably in Tennessee—that says, 'Fool me once, shame on...shame on you. ... -George W.  Bush"
+"There's an old saying in Tennessee—I know it's in Texas, probably in Tennessee—that says, 'Fool me once, shame on...shame on you. ... -George W.  Bush",
+"If it wasn't hard, everyone would do it. It's the hard that makes it great. -Tom Hanks"
 ];
 
 textSequence(0);
@@ -15,7 +16,7 @@ function textSequence(i) {
         setInterval(function() {
             document.getElementById("sequence").innerHTML = quote[i];
             textSequence(++i);
-        }, 4000); 
+        }, 4500); 
 
     } else if (quote.length == i) { 
         textSequence(0);
