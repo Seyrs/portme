@@ -2,18 +2,40 @@ h1 {
     color: blueviolet;
     text-align: center;
 }
+h2 {
+    color: blueviolet;
+    text-align: center;
+}
 body.landing {
     background-color: cornflowerblue;
     background-image: url("../../pics/space.gif");
+    /* background-size: cover; */
 }
 body {
     background-color: rgb(23, 27, 34);
 }
+body.bio {
+    /* background-image: url("../../pics/sloth.jpg"); */
+    /* background: rgba(76, 175, 80, 0.6);} */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 100%; */
+}
+span #colorMe {
+    color: black;
+}
+
 h3 {
     color: greenyellow;
 }
-div {
+div.colors {
     color: pink;
+}
+div.colorsg {
+    color: rgb(85, 85, 225);
+}
+#icons {
+    font-size: 3rem;
 }
 div:nth-of-type(1) {
     text-align: center;
@@ -57,7 +79,16 @@ h3:nth-of-type(2) {
     display: inline-block;
     text-align: center;
 }
-
+#icons {
+    text-align: left;
+}
+#list {
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 4;
+    list-style-position: inside;
+}
 .res h3 {
     border-style: double;
     border-width: 5px;
@@ -166,27 +197,32 @@ a:focus {
     grid-template-rows: [row1-start] auto [row2-start] auto [row2-end];
 }
 
-#box {
+.box {
     border-radius: 5px;
     padding: 20px;
     font-size: 150%;
 
 }
 
-#a {
+.a {
     grid-column: col1-start / col3-start;
     grid-row: row1-start ;
     /* margin-left: 400px; */
 }
-#b {
+.b {
     grid-column: col3-start ;
     grid-row: row1-start / row2-end;
 }
-#c {
+.c {
     grid-column: col1-start;
     grid-row: row2-start ;
 }
-#d {
+.d {
     grid-column: col2-start ;
     grid-row: row2-start ;
+}
+
+#sequence {
+    color:yellowgreen;
+    word-wrap: normal;
 }
